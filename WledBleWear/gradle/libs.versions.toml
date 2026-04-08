@@ -8,12 +8,20 @@ lifecycle                 = "2.8.7"
 kotlinx-serialization     = "1.7.3"
 kotlinx-coroutines        = "1.9.0"
 core-splashscreen         = "1.0.1"
+wear-tiles                = "1.4.1"
+wear-protolayout          = "1.2.1"
+datastore-preferences     = "1.1.1"
 
 [libraries]
 # Compose BOM (manages compose-ui, runtime, etc.)
 androidx-compose-bom              = { group = "androidx.compose",    name = "compose-bom",            version.ref = "compose-bom" }
 androidx-compose-ui-tooling-prev  = { group = "androidx.compose.ui", name = "ui-tooling-preview" }
 androidx-compose-ui-tooling       = { group = "androidx.compose.ui", name = "ui-tooling" }
+androidx-wear-tiles                   = { group = "androidx.wear.tiles",      name = "tiles",                      version.ref = "wear-tiles" }
+androidx-wear-protolayout             = { group = "androidx.wear.protolayout", name = "protolayout",                version.ref = "wear-protolayout" }
+androidx-wear-protolayout-material    = { group = "androidx.wear.protolayout", name = "protolayout-material",       version.ref = "wear-protolayout" }
+androidx-wear-protolayout-expression  = { group = "androidx.wear.protolayout", name = "protolayout-expression",     version.ref = "wear-protolayout" }
+androidx-datastore-preferences        = { group = "androidx.datastore",        name = "datastore-preferences",      version.ref = "datastore-preferences" }
 
 # Activity / Lifecycle
 androidx-activity-compose         = { group = "androidx.activity",   name = "activity-compose",       version.ref = "activity-compose" }

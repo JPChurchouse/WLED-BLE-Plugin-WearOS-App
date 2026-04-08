@@ -54,4 +54,10 @@ dependencies {
 
     implementation(libs.androidx.compose.ui.tooling.prev)
     debugImplementation(libs.androidx.compose.ui.tooling)
+
+    implementation(libs.androidx.wear.tiles)
+    implementation(libs.androidx.wear.protolayout)
+    implementation(libs.androidx.wear.protolayout.material)
+    implementation(libs.androidx.wear.protolayout.expression)
+    implementation(libs.androidx.datastore.preferences)
 }
